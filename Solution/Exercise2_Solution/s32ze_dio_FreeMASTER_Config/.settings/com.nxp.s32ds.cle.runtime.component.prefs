@@ -1,0 +1,9 @@
+com.nxp.s32ds.cle.runtime.component.registry.archetype.id=application
+com.nxp.s32ds.cle.runtime.component.registry.archetype.platform.id=
+com.nxp.s32ds.cle.runtime.hardware.registry.core.id=CortexR52
+com.nxp.s32ds.cle.runtime.hardware.registry.device.id=S32Z270
+com.nxp.s32ds.cle.runtime.hardware.registry.device.revision.id=
+com.nxp.s32ds.cle.runtime.hardware.registry.deviceCore.id=S32Z270_R52_0_0_LS
+com.nxp.s32ds.cle.runtime.hardware.registry.family.id=S32Z27
+com.nxp.s32ds.cle.runtime.lang.registry.lang.id=c
+eclipse.preferences.version=1

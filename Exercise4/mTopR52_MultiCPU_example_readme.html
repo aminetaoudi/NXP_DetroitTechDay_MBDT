@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Multicore Execution on ARM Cortex-R52</title>
+    </head>
+    
+    <body>
+        <h2>Multicore Execution on ARM Cortex-R52</h2>
+        <p><b><a href="matlab:open(fullfile(mbd_find_s32ze_root(),'S32ZE_Examples\multicore\R52_MultiCPU\mTopR52_MultiCPU.mdl'))">Open Example</a></b></p>
+        <p>The <b>mTopR52_MultiCPU.mdl</b> example shows how to use <b>Concurrent Execution</b> to run a Multicore application on ARM Cortex-R52 cores.</p>
+        
+            <p>This model illustrates the explicit partitioning functionality in Simulink that allows running different Simulink models on different cores. In this case the R52 Core 0 Cluster 0 core is the boot core that will start the R52 Core 1 Cluster 0 and R52 Core 2 Cluster 0 remote cores. The R52 Core 2 is sending the input data to the R52 Core 1, where the data is used and then sent to validation to the R52 Core 0. The results of the computations is then validated on the R52 Core 0 and acknowledge messages are sent to the terminal using UART.</p>
+        
+            <p>Note: for more information about Concurrent Execution in Simulink, please visit MathWorks website, <a href="https://www.mathworks.com/help/simulink/ug/concepts-in-multicore-programming.html">Concepts in multicore programming</a>, <a href="https://www.mathworks.com/help/simulink/ug/setup-partitions-in-explicit-partitioning.html">Setup partitions in explicit partitioning.</a></p>
+        
+            <p>Note: the initialization settings for the components used in this example represent just a default EB Tresos available configuration. Users can change the configuration of the application to fit special requirements.</p>
+        
+        <h3>Toolchain Supported</h3>
+        <ul>
+            
+                <li><p>S32 Design Studio v3.5.13</p></li>
+            
+        </ul>
+        <h3>Required Hardware</h3>
+        <ul>
+            
+                <li><p>Personal Computer</p></li>
+            
+                <li><p>S32Z2xx/S32E2xx</p></li>
+            
+                <li><p>12V Power Supply</p></li>
+            
+                <li><p>Micro USB cable</p></li>
+            
+                <li><p>S32 Debugger probe</p></li>
+            
+        </ul>
+        <h3>Prepare the Demo</h3>
+        <ul>
+            
+                <li><p>Open the model and select the processor package. This model is configured for the S32E2xx-bga975 hardware package. If you would like to change the processor package, please follow the steps described in the <b>Customization Options</b> section.</p></li>
+            
+                <li><p>Connect the S32 Debugger probe to the J129 JTAG pin connector on the EVB.</p></li>
+            
+                <li><p>UART default configuration is using the LINFLEXD instance 9 which is also used for serial boot on S32E27X-DC4 EVB. Disable the BootROM to be able to use the serial.</p></li>
+            
+                <li><p>Build and Download the program on the target processor. To build the multicore application, go to <b>Model Settings -> Hardware Implementation -> Target hardware resources -> Groups -> Multicore</b> and check <b>Enable multicore execution</b> then press the <b>Build Selected Nodes</b> button.</p></li>
+            
+        </ul>
+        <h3>Running the Demo</h3>
+        <ul>
+            
+                <li><p>Open a terminal (e.g: Putty) and configure it with the following information:</p></li>
+            
+                <li><p><table class="tg"><thead><tr><th>UART config.</th><th>Settings</th></tr></thead><tbody><tr><td>Baud rate</td><td>115200</td></tr><tr><td>Data bits</td><td>8</td></tr><tr><td>Stop bits</td><td>1</td></tr><tr><td>Parity</td><td>None</td></tr><tr><td>Flow Control</td><td>None</td></tr></tbody></table></p></li>
+            
+                <li><p>COM port: Look it up inside Device Manager, under the Ports tab.</p></li>
+            
+                <li><p>See the messages in the terminal. A correct run of the program will toggle the RED LED on the board.</p></li>
+            
+        </ul>
+        <h3>Customization Options</h3>
+		<ul>
+            
+                <li><p>How to change the processor package - visit section 6.8 of <a href="matlab:web(fullfile(mbd_find_s32ze_root(), 'mbdtbx_s32ze', 'help', 'release_notes.html'), '-browser')">Model_Based_Design_Toolbox_S32ZE_Series_Release_Notes</a></p></li>
+            
+                <li><p>How to create a configuration project for a custom board - visit section 6.6 of <a href="matlab:web(fullfile(mbd_find_s32ze_root(), 'mbdtbx_s32ze', 'help', 'release_notes.html'), '-browser')">Model_Based_Design_Toolbox_S32ZE_Series_Release_Notes</a></p></li>
+            
+                <li><p>For S32Z and S32E Design Tools and Files, please visit <a href="https://www.nxp.com/products/processors-and-microcontrollers/s32-automotive-platform/s32z-and-s32e-real-time-processors:S32Z-E-REAL-TIME-PROCESSORS">S32ZE Microcontrollers</a></p></li>
+            
+        </ul>
+    </body>
+    
+    <style>
+        body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            font-family: Arial,Helvetica,sans-serif;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333;
+            background-color: #fff;
+            margin-left: 10px;
+            position: relative;
+            overflow: auto;
+            display: block;
+        }
+        
+        h3 {
+            padding-top: 5px;
+            padding-bottom: 2px;
+            margin-bottom: 5px;
+            margin: 0 0 13px;
+            color: #c45400;
+            font: normal bold 15px/1.333 Arial,Helvetica,sans-serif;
+            box-sizing: border-box;
+        }
+
+        h2 {
+            padding: 0 61px 2px 0;
+            margin-bottom: 16px;
+            margin: 0 0 15px;
+            border-bottom: 1px solid #cbcbcb;
+            color: #c45400;
+            font: normal normal 22px/1.136 Arial,Helvetica,sans-serif;
+            box-sizing: border-box;
+        }
+
+        .tg  {border-collapse:collapse;border-color:#aaa;border-spacing:0;margin:0px inherit;}
+        .tg td{background-color:#fff;border-color:#aaa;border-style:solid;border-width:1px;color:#333;
+        font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:7px 3px;word-break:normal;}
+        .tg th{background-color:#f38630;border-color:#aaa;border-style:solid;border-width:1px;color:#fff;
+        font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:7px 3px;word-break:normal;}
+        .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+
+    </style>
+</html>

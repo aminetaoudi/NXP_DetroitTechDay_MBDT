@@ -1,0 +1,222 @@
+/**
+*   @file    Mru_Ip_Cfg.h
+*   @version 2.0.0
+*
+*   @brief   AUTOSAR Platform - Mru configuration header file.
+*   @details This file is the header containing all the necessary information for MRU
+*            module configuration(s).
+*   @addtogroup MRU_IP_DRIVER_CONFIGURATION Mru Ip Driver Configuration
+*   @{
+*/
+/*==================================================================================================
+*   Project              : RTD AUTOSAR 4.7
+*   Platform             : CORTEXM
+*   Peripheral           : 
+*   Dependencies         : none
+*
+*   Autosar Version      : 4.7.0
+*   Autosar Revision     : ASR_REL_4_7_REV_0000
+*   Autosar Conf.Variant :
+*   SW Version           : 2.0.0
+*   Build Version        : S32ZE_RTD_2_0_0_D2407_ASR_REL_4_7_REV_0000_20240726
+*
+*   Copyright 2021-2024 NXP
+*
+*   NXP Confidential and Proprietary. This software is owned or controlled by NXP and may only be 
+*   used strictly in accordance with the applicable license terms.  By expressly 
+*   accepting such terms or by downloading, installing, activating and/or otherwise 
+*   using the software, you are agreeing that you have read, and that you agree to 
+*   comply with and are bound by, such license terms.  If you do not agree to be 
+*   bound by the applicable license terms, then you may not retain, install,
+*   activate or otherwise use the software.
+==================================================================================================*/
+
+#ifndef MRU_IP_CFG_H
+#define MRU_IP_CFG_H
+
+#ifdef __cplusplus
+extern "C"{
+#endif
+
+/*==================================================================================================
+*                                        INCLUDE FILES
+* 1) system and project includes
+* 2) needed interfaces from external units
+* 3) internal and external interfaces from this unit
+* 4) user callback header files
+==================================================================================================*/
+#include "Mcal.h"
+#include "OsIf.h"
+#include "Mru_Ip_CfgDefines.h"
+#include "S32E2_SMU_MRU.h"
+#include "S32E2_RTU_MRU.h"
+#include "S32E2_CE_MRU.h"
+/*==================================================================================================
+*                              SOURCE FILE VERSION INFORMATION
+==================================================================================================*/
+#define CDD_PLATFORM_MRU_IP_VENDOR_ID_CFG                                    43
+#define CDD_PLATFORM_MRU_IP_AR_RELEASE_MAJOR_VERSION_CFG                     4
+#define CDD_PLATFORM_MRU_IP_AR_RELEASE_MINOR_VERSION_CFG                     7
+#define CDD_PLATFORM_MRU_IP_AR_RELEASE_REVISION_VERSION_CFG                  0
+#define CDD_PLATFORM_MRU_IP_SW_MAJOR_VERSION_CFG                             2
+#define CDD_PLATFORM_MRU_IP_SW_MINOR_VERSION_CFG                             0
+#define CDD_PLATFORM_MRU_IP_SW_PATCH_VERSION_CFG                             0
+
+/*==================================================================================================
+*                                     FILE VERSION CHECKS
+==================================================================================================*/
+#ifndef DISABLE_MCAL_INTERMODULE_ASR_CHECK
+    /* Check if current file and Mcal header file are of the same Autosar version */
+    #if ((CDD_PLATFORM_MRU_IP_AR_RELEASE_MAJOR_VERSION_CFG != MCAL_AR_RELEASE_MAJOR_VERSION) || \
+         (CDD_PLATFORM_MRU_IP_AR_RELEASE_MINOR_VERSION_CFG != MCAL_AR_RELEASE_MINOR_VERSION))
+    #error "AutoSar Version Numbers of Mru_Ip_Cfg.h and Mcal.h are different"
+    #endif
+    /* Check if the current file and OsIf.h header file are of the same version */
+    #if ((CDD_PLATFORM_MRU_IP_AR_RELEASE_MAJOR_VERSION_CFG != OSIF_AR_RELEASE_MAJOR_VERSION) || \
+         (CDD_PLATFORM_MRU_IP_AR_RELEASE_MINOR_VERSION_CFG != OSIF_AR_RELEASE_MINOR_VERSION) \
+        )
+        #error "AutoSar Version Numbers of Mru_Ip_Cfg.h and OsIf.h are different"
+    #endif    
+#endif
+
+/* Check if Mru_Ip_CfgDefines.h and Mru_Ip_Cfg.h are of the same vendor */
+#if (CDD_PLATFORM_MRU_IP_CFG_DEFINES_VENDOR_ID != CDD_PLATFORM_MRU_IP_VENDOR_ID_CFG)
+    #error "Mru_Ip_CfgDefines.h and Mru_Ip_Cfg.h have different vendor ids"
+#endif
+/* Check if Mru_Ip_CfgDefines.h file and Mru_Ip_Cfg.h file are of the same Autosar version */
+#if ((CDD_PLATFORM_MRU_IP_CFG_DEFINES_AR_RELEASE_MAJOR_VERSION != CDD_PLATFORM_MRU_IP_AR_RELEASE_MAJOR_VERSION_CFG) || \
+     (CDD_PLATFORM_MRU_IP_CFG_DEFINES_AR_RELEASE_MINOR_VERSION != CDD_PLATFORM_MRU_IP_AR_RELEASE_MINOR_VERSION_CFG) || \
+     (CDD_PLATFORM_MRU_IP_CFG_DEFINES_AR_RELEASE_REVISION_VERSION != CDD_PLATFORM_MRU_IP_AR_RELEASE_REVISION_VERSION_CFG))
+#error "AutoSar Version Numbers of Mru_Ip_CfgDefines.h and Mru_Ip_Cfg.h are different"
+#endif
+#if ((CDD_PLATFORM_MRU_IP_CFG_DEFINES_SW_MAJOR_VERSION != CDD_PLATFORM_MRU_IP_SW_MAJOR_VERSION_CFG) || \
+     (CDD_PLATFORM_MRU_IP_CFG_DEFINES_SW_MINOR_VERSION != CDD_PLATFORM_MRU_IP_SW_MINOR_VERSION_CFG) || \
+     (CDD_PLATFORM_MRU_IP_CFG_DEFINES_SW_PATCH_VERSION != CDD_PLATFORM_MRU_IP_SW_PATCH_VERSION_CFG))
+#error "Software Version Numbers of Mru_Ip_CfgDefines.h and Mru_Ip_Cfg.h are different"
+#endif
+/*==================================================================================================
+*                                          CONSTANTS
+==================================================================================================*/
+
+/*==================================================================================================
+ *                                     DEFINES AND MACROS
+==================================================================================================*/
+#define MRU_IP_CONFIG_EXT  \
+ extern const Mru_Ip_ConfigType Mru_Ip_HWUnitConfig_RTU0_MRU0; \
+ extern const Mru_Ip_ConfigType Mru_Ip_HWUnitConfig_RTU0_MRU1; \
+ extern const Mru_Ip_ConfigType Mru_Ip_HWUnitConfig_RTU0_MRU2; \
+ extern const Mru_Ip_TransmitChannelType Mru_Ip_TransmitChCfg_PlatformMruTransmittingChannel_0; \
+ extern const Mru_Ip_TransmitChannelType Mru_Ip_TransmitChCfg_PlatformMruTransmittingChannel_1; \
+ extern const Mru_Ip_TransmitChannelType Mru_Ip_TransmitChCfg_PlatformMruTransmittingChannel_2; \
+ extern const Mru_Ip_TransmitChannelType Mru_Ip_TransmitChCfg_PlatformMruTransmittingChannel_3; \
+ extern const Mru_Ip_TransmitChannelType Mru_Ip_TransmitChCfg_PlatformMruTransmittingChannel_4; \
+ extern const Mru_Ip_ReceiveChannelType Mru_Ip_ReceiveChCfg_PlatformMruReceivingChannel_0; \
+ extern const Mru_Ip_ReceiveChannelType Mru_Ip_ReceiveChCfg_PlatformMruReceivingChannel_1; \
+ extern const Mru_Ip_ReceiveChannelType Mru_Ip_ReceiveChCfg_PlatformMruReceivingChannel_2; \
+ extern const Mru_Ip_ReceiveChannelType Mru_Ip_ReceiveChCfg_PlatformMruReceivingChannel_3; \
+ extern const Mru_Ip_ReceiveChannelType Mru_Ip_ReceiveChCfg_PlatformMruReceivingChannel_4;
+
+/**
+* @brief RTU0_MRU0 is enabled and used.
+*/
+#define RTU0_MRU0_ENABLED                  (STD_ON)
+/**
+* @brief Instance number for RTU0_MRU0.
+*/
+#define MRU_IP_RTU0_MRU0_INSTANCE          (0U)
+/**
+* @brief Instance ID for RTU0_MRU0.
+*/
+#define MRU_IP_RTU0_MRU0_ID                (0U)
+/**
+* @brief RTU0_MRU1 is enabled and used.
+*/
+#define RTU0_MRU1_ENABLED                  (STD_ON)
+/**
+* @brief Instance number for RTU0_MRU1.
+*/
+#define MRU_IP_RTU0_MRU1_INSTANCE          (1U)
+/**
+* @brief Instance ID for RTU0_MRU1.
+*/
+#define MRU_IP_RTU0_MRU1_ID                (1U)
+/**
+* @brief RTU0_MRU2 is enabled and used.
+*/
+#define RTU0_MRU2_ENABLED                  (STD_ON)
+/**
+* @brief Instance number for RTU0_MRU2.
+*/
+#define MRU_IP_RTU0_MRU2_INSTANCE          (2U)
+/**
+* @brief Instance ID for RTU0_MRU2.
+*/
+#define MRU_IP_RTU0_MRU2_ID                (2U)
+/**
+* @brief Number of instance is used by the driver.
+*/
+#define MRU_IP_NUMBER_OF_INSTANCES    (3U)
+
+/**
+* @brief ID for interrupt group 0.
+*/
+#define MRU_IP_INT_GROUP_0  0u
+/**
+* @brief ID for interrupt group 1.
+*/
+#define MRU_IP_INT_GROUP_1  1u
+
+
+/**
+* @brief Skip the Platform default interrupt handler.
+*/
+
+#define MRU_IP_SKIP_RTU0_MRU0_INT1_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU0_INT2_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU0_INT3_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU1_INT1_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU1_INT2_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU1_INT3_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU2_INT1_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU2_INT2_HANDLER  (STD_ON)
+
+#define MRU_IP_SKIP_RTU0_MRU2_INT3_HANDLER  (STD_ON)
+
+/*==================================================================================================
+*                                            ENUMS
+==================================================================================================*/
+
+
+/*==================================================================================================
+*                               STRUCTURES AND OTHER TYPEDEFS
+==================================================================================================*/
+
+
+/*==================================================================================================
+*                                GLOBAL VARIABLE DECLARATIONS
+==================================================================================================*/
+#define PLATFORM_START_SEC_CONST_UNSPECIFIED
+#include "Platform_MemMap.h"
+
+extern RTU_MRU_Type* const Mru_Ip_apxRTU_Bases[RTU_MRU_INSTANCE_COUNT];
+#define PLATFORM_STOP_SEC_CONST_UNSPECIFIED
+#include "Platform_MemMap.h"
+
+/*==================================================================================================
+*                                    FUNCTION PROTOTYPES
+==================================================================================================*/
+
+
+#ifdef __cplusplus
+}
+#endif
+#endif 
+
+/** @} */

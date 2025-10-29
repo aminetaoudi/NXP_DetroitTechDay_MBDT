@@ -1,0 +1,3 @@
+mbd_s32ze.nxp.download.jtag('mTopR52_MultiCPU_R52_CLUSTER_0_CORE_0.elf', 'S32E2xx-bga975', 'R52 Cluster 0 Core 0', 'R52 Cluster 0 Core 0', 3);
+mbd_s32ze.nxp.download.jtag('mTopR52_MultiCPU_R52_CLUSTER_0_CORE_1.elf', 'S32E2xx-bga975', 'R52 Cluster 0 Core 1', 'R52 Cluster 0 Core 1', 3);
+mbd_s32ze.nxp.download.jtag('mTopR52_MultiCPU_R52_CLUSTER_0_CORE_2.elf', 'S32E2xx-bga975', 'R52 Cluster 0 Core 2', 'R52 Cluster 0 Core 2', 3);

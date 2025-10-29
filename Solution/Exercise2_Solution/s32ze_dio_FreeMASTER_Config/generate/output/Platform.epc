@@ -1,0 +1,1481 @@
+<?xml version='1.0'?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00050.xsd">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>Platform</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-MODULE-CONFIGURATION-VALUES>
+          <SHORT-NAME>Platform</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-MODULE-DEF">/TS_T31D53M20I0R0/Platform</DEFINITION-REF>
+          <IMPLEMENTATION-CONFIG-VARIANT>VARIANT-PRE-COMPILE</IMPLEMENTATION-CONFIG-VARIANT>
+          <CONTAINERS>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>CommonPublishedInformation</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/ArReleaseMajorVersion</DEFINITION-REF>
+                  <VALUE>4</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/ArReleaseMinorVersion</DEFINITION-REF>
+                  <VALUE>7</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/ArReleaseRevisionVersion</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/ModuleId</DEFINITION-REF>
+                  <VALUE>255</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/SwMajorVersion</DEFINITION-REF>
+                  <VALUE>2</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/SwMinorVersion</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/SwPatchVersion</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/CommonPublishedInformation/VendorId</DEFINITION-REF>
+                  <VALUE>43</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>Diportsd_AE_Configuration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/Diportsd_AE_Configuration</DEFINITION-REF>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GeneralConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/ARM_Core</DEFINITION-REF>
+                  <VALUE>ARM_R_ARCH</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformAeSubsystemInterruptsSupport</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformDevErrorDetect</DEFINITION-REF>
+                  <VALUE>1</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformEnableIntCtrlConfiguration</DEFINITION-REF>
+                  <VALUE>1</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformEnableMruConfiguration</DEFINITION-REF>
+                  <VALUE>1</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformEnableUserModeSupport</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformEnableVtorConfiguration</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformIpAPIsAvailable</DEFINITION-REF>
+                  <VALUE>1</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMcmConfigurable</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMpuM33Configurable</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMpuR52Configurable</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMruChannelDisableApi</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMruChannelEnableApi</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMruChannelResetApi</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMruInstanceResetApi</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformMulticoreSupport</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformTimeoutDuration</DEFINITION-REF>
+                  <VALUE>1000</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/PlatformTimeoutMethod</DEFINITION-REF>
+                  <VALUE>OSIF_COUNTER_DUMMY</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/R52VtableMem_Cluster0_Core0</DEFINITION-REF>
+                  <VALUE>DEFAULT_VECTOR_0</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/R52VtableMem_Cluster0_Core1</DEFINITION-REF>
+                  <VALUE>DEFAULT_VECTOR_1</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/R52VtableMem_Cluster1_Core0</DEFINITION-REF>
+                  <VALUE>DEFAULT_VECTOR_2</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/GeneralConfiguration/R52VtableMem_Cluster1_Core1</DEFINITION-REF>
+                  <VALUE>DEFAULT_VECTOR_3</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>IntCtrlConfig_0</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformVtorAddressConfig</DEFINITION-REF>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+              <SUB-CONTAINERS>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfig_24</SHORT-NAME>
+                  <INDEX>0</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>MBDT_Step_Handler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_EL1_TIM_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>9</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfig_36</SHORT-NAME>
+                  <INDEX>1</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>PIT_0_ISR</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_PIT0_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>7</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfig_180</SHORT-NAME>
+                  <INDEX>2</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>Adc_Sar_0_Isr</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_ADC0_EOC_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfig_213</SHORT-NAME>
+                  <INDEX>3</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>Adc_Sar_1_Isr</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_ADC1_EOC_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>2</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfig_224</SHORT-NAME>
+                  <INDEX>4</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>LINFLEXD9_UART_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_LINFLEXD9_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfig_757</SHORT-NAME>
+                  <INDEX>5</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>Ctu_0_FIFO_Isr</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CTU_FIFO_3_0_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>3</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_0</SHORT-NAME>
+                  <INDEX>6</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>EMIOS1_CH16_IRQ</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_EMIOS1_CH16_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>10</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_1</SHORT-NAME>
+                  <INDEX>7</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>EMIOS1_CH19_IRQ</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_EMIOS1_CH19_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>10</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_2</SHORT-NAME>
+                  <INDEX>8</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>CAN0_ORED_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CE_CAN0_INIT_OR_ERROR_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_3</SHORT-NAME>
+                  <INDEX>9</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>CAN0_EnhancedData_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CE_CAN0_RXFIFO_DATA_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_4</SHORT-NAME>
+                  <INDEX>10</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>CAN0_ORED_0_31_MB_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CE_CAN0_MB_31_0_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_5</SHORT-NAME>
+                  <INDEX>11</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>CAN0_ORED_32_63_MB_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CE_CAN0_MB_63_32_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_6</SHORT-NAME>
+                  <INDEX>12</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>CAN0_ORED_64_95_MB_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CE_CAN0_MB_95_64_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_7</SHORT-NAME>
+                  <INDEX>13</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>CAN0_ORED_96_127_MB_IRQHandler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_CE_CAN0_MB_127_96_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_8</SHORT-NAME>
+                  <INDEX>14</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>MBDT_RTU_MRU_INT0_Handler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_MRU0_INT0_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformIsrConfigR_9</SHORT-NAME>
+                  <INDEX>15</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrEnabled</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrHandler</DEFINITION-REF>
+                      <VALUE>MBDT_RTU_MRU_INT1_Handler</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrName</DEFINITION-REF>
+                      <VALUE>RTU_MRU0_INT1_IRQn</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/IntCtrlConfig/PlatformIsrConfigR/IsrPriority</DEFINITION-REF>
+                      <VALUE>5</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </SUB-CONTAINERS>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>Mpu_M33_Configuration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/Mpu_M33_Configuration</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/Mpu_M33_Configuration/Mpu_M33_DevErrorDetect</DEFINITION-REF>
+                  <VALUE>1</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>PlatformMruConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration</DEFINITION-REF>
+              <SUB-CONTAINERS>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruReceivingChannel_0</SHORT-NAME>
+                  <INDEX>0</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU0_CH1</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptGroup</DEFINITION-REF>
+                      <VALUE>INTERRUPT_GROUP_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptNotification</DEFINITION-REF>
+                      <VALUE>OPENAMP_MRU_NOTIFICATION</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipDefaultHandler</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipInitChannel</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUsePollingMode</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruReceivingChannel_1</SHORT-NAME>
+                  <INDEX>1</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU0_CH2</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptGroup</DEFINITION-REF>
+                      <VALUE>INTERRUPT_GROUP_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptNotification</DEFINITION-REF>
+                      <VALUE>ipc_shm_mru_notification</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipDefaultHandler</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipInitChannel</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUsePollingMode</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruReceivingChannel_2</SHORT-NAME>
+                  <INDEX>2</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>2</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU1_CH1</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptGroup</DEFINITION-REF>
+                      <VALUE>INTERRUPT_GROUP_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptNotification</DEFINITION-REF>
+                      <VALUE>ipc_shm_mru_notification</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipDefaultHandler</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipInitChannel</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUsePollingMode</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruReceivingChannel_3</SHORT-NAME>
+                  <INDEX>3</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>3</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU1_CH2</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptGroup</DEFINITION-REF>
+                      <VALUE>INTERRUPT_GROUP_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptNotification</DEFINITION-REF>
+                      <VALUE>ipc_shm_mru_notification</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipDefaultHandler</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipInitChannel</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUsePollingMode</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruReceivingChannel_4</SHORT-NAME>
+                  <INDEX>4</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>4</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU2_CH1</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptGroup</DEFINITION-REF>
+                      <VALUE>INTERRUPT_GROUP_0</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-FUNCTION-NAME-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruInterruptNotification</DEFINITION-REF>
+                      <VALUE>ipc_shm_mru_notification</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipDefaultHandler</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruSkipInitChannel</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruReceivingChannel/PlatformMruUsePollingMode</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruTransmittingChannel_0</SHORT-NAME>
+                  <INDEX>0</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/OverwriteMBEnabled</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU0_CH1</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruMailBoxAddress</DEFINITION-REF>
+                      <VALUE>1980174336</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruTransmittingChannel_1</SHORT-NAME>
+                  <INDEX>1</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/OverwriteMBEnabled</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU0_CH2</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruMailBoxAddress</DEFINITION-REF>
+                      <VALUE>1980178432</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruTransmittingChannel_2</SHORT-NAME>
+                  <INDEX>2</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/OverwriteMBEnabled</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>2</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU1_CH1</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruMailBoxAddress</DEFINITION-REF>
+                      <VALUE>1980305408</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruTransmittingChannel_3</SHORT-NAME>
+                  <INDEX>3</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/OverwriteMBEnabled</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>3</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU1_CH2</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruMailBoxAddress</DEFINITION-REF>
+                      <VALUE>1980309504</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+                <ECUC-CONTAINER-VALUE>
+                  <SHORT-NAME>PlatformMruTransmittingChannel_4</SHORT-NAME>
+                  <INDEX>4</INDEX>
+                  <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel</DEFINITION-REF>
+                  <PARAMETER-VALUES>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/OverwriteMBEnabled</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruChannelId</DEFINITION-REF>
+                      <VALUE>4</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-TEXTUAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-ENUMERATION-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruHWChannel</DEFINITION-REF>
+                      <VALUE>RTU0_MRU2_CH1</VALUE>
+                    </ECUC-TEXTUAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-INTEGER-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruMailBoxAddress</DEFINITION-REF>
+                      <VALUE>1982271488</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox0</DEFINITION-REF>
+                      <VALUE>1</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox1</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox10</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox11</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox12</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox13</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox14</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox15</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox2</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox3</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox4</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox5</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox6</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox7</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox8</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                    <ECUC-NUMERICAL-PARAM-VALUE>
+                      <DEFINITION-REF DEST="ECUC-BOOLEAN-PARAM-DEF">/TS_T31D53M20I0R0/Platform/PlatformMruConfiguration/PlatformMruTransmittingChannel/PlatformMruUseMailBox9</DEFINITION-REF>
+                      <VALUE>0</VALUE>
+                    </ECUC-NUMERICAL-PARAM-VALUE>
+                  </PARAMETER-VALUES>
+                </ECUC-CONTAINER-VALUE>
+              </SUB-CONTAINERS>
+            </ECUC-CONTAINER-VALUE>
+          </CONTAINERS>
+        </ECUC-MODULE-CONFIGURATION-VALUES>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
